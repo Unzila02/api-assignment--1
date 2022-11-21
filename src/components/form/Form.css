@@ -1,0 +1,33 @@
+.form-signin {
+  margin: 120px auto !important;
+  max-width: 330px;
+  padding: 15px;
+}
+h2{
+  margin-bottom: 3rem;
+}
+.top{
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: transparent;
+}
+.btn-setting{
+  margin-top: 30px;
+}
+.last {
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: transparent;
+}
+input[type=text]:focus:not([readonly]) {
+  -webkit-box-shadow: 0 1px 0 0 #fff;
+  background-color: transparent;
+}
+::placeholder { 
+  color:    rgb(0, 0, 0) !important;
+}
